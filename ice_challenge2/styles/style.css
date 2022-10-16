@@ -1,0 +1,14 @@
+body {
+    background-color: grey;
+}
+
+#img1 {
+    width: 100%;
+}
+
+.icons {
+    width: 120px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 10px solid black;
+}
