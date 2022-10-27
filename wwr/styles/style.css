@@ -9,10 +9,10 @@
 }
 
 .home-title {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;;
     font-size: 2em;
     margin-top: 10px;
-    color: #0CCA4A;
+    color: #E6C79C;
 }
 
 nav {
@@ -85,7 +85,8 @@ h2 {
 }
 
 .logo {
-    width: 80px;
+    width: auto;
+    height: 80px;
 }
 
 #logo_link {
@@ -187,7 +188,6 @@ footer p a:hover {
 
 .msg {
     background-color:#0CCA4A;
-    background-color: #E6C79C;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
