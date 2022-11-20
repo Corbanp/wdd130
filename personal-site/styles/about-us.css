@@ -74,6 +74,47 @@ nav a:hover {
   height: max-content;
   width: auto;
 }
+
+#about-grid {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.about1 {
+  width: 80%;
+  height: auto;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.about2 {
+  width: 70%;
+  height: auto;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+  font-size: 150%;
+}
+
+.about3 {
+  width: 70%;
+  height: auto;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  text-align: center;
+  font-size: 150%;
+}
+
+.about4 {
+  width: 80%;
+  height: auto;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
 /* This part is for the footer */
 
 footer {
